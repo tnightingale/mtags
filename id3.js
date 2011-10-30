@@ -96,3 +96,9 @@ exports.getTag = function (url, tag) {
 
   return _files[url][tag];
 };
+
+exports.getReader = function (reader) {
+  if (readers[reader]) {
+    return readers[reader];
+  }
+};

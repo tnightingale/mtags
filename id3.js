@@ -66,7 +66,8 @@ exports.loadTags = function (url, cb, options) {
       reader.loadData(data, function () {
         readTags(reader, data, url, options["tags"]);
         if (cb) {
-          cb();
+          // TODO: Note the addition of argument passed to the callback.
+          cb(url);
         }
       });
     });

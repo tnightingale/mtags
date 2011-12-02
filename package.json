@@ -3,8 +3,8 @@
   "description": "Media file tag parser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thegreat/mtags",
-  }
+    "url": "https://github.com/thegreat/mtags"
+  },
   "keywords": ["id3", "mp3", "AAC", "m4a", "parser"],
   "author": "Jacob Seidelin <cupboy@gmail.com>",
   "contributors": ["António Afonso <antonio.afonso@gmail.com>", "Tom Nightingale <tom@tnightingale.com>"],

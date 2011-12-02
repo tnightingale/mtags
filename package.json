@@ -19,6 +19,8 @@
   ],
   "dependencies": {
     "file-api": "0.9.x"
+    "mime": "1.2.x",
+    "remedial": "1.0.x"
   },
   "main": "./mtags.js",
   "version": "0.1.1",

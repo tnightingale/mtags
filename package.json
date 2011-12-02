@@ -1,1 +1,14 @@
-{   "name"          : "id3",  "description"   : "ID3 tag parser",  "url"           : "https://github.com/thegreat/JavaScript-ID3-Reader",  "keywords"      : ["id3", "mp3", "tag", "parser"],  "author"        : "Jacob Seidelin <cupboy@gmail.com>",  "contributors"  : ["António Afonso <antonio.afonso@gmail.com>", "Tom Nightingale <tom@tnightingale.com>"],  "dependencies"  : {                      "file-api": "0.9.x"                    },  "main"          : "./id3.js",  "version"       : "0.1.0",  "engine"        : "node >= 0.4.11"}
+{ 
+  "name"          : "node-id3",
+  "description"   : "Media file tag parser",
+  "url"           : "https://github.com/thegreat/node-id3",
+  "keywords"      : ["id3", "mp3", "tag", "parser"],
+  "author"        : "Jacob Seidelin <cupboy@gmail.com>",
+  "contributors"  : ["António Afonso <antonio.afonso@gmail.com>", "Tom Nightingale <tom@tnightingale.com>"],
+  "dependencies"  : {
+                      "file-api": "0.9.x"
+                    },
+  "main"          : "./id3.js",
+  "version"       : "0.1.0",
+  "engine"        : "node >= 0.4.11"
+}

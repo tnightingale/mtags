@@ -1,17 +1,30 @@
-{ 
+{
   "name": "mtags",
   "description": "Media file tag parser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thegreat/mtags"
+    "url": "git://github.com/thegreat/mtags.git"
   },
-  "keywords": ["id3", "mp3", "AAC", "m4a", "parser"],
+  "keywords": [
+    "id3",
+    "mp3",
+    "AAC",
+    "m4a",
+    "parser"
+  ],
   "author": "Jacob Seidelin <cupboy@gmail.com>",
-  "contributors": ["António Afonso <antonio.afonso@gmail.com>", "Tom Nightingale <tom@tnightingale.com>"],
+  "contributors": [
+    "António Afonso <antonio.afonso@gmail.com>",
+    "Tom Nightingale <tom@tnightingale.com>"
+  ],
   "dependencies": {
     "file-api": "0.9.x"
   },
   "main": "./mtags.js",
-  "version": "0.1.0",
-  "engine": "node >= 0.4.11"
+  "version": "0.1.1",
+  "engine": "node >= 0.4.11",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
